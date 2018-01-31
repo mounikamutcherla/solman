@@ -20,6 +20,13 @@
     <packaging>jar</packaging>
 
     <dependencies>
+         <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/jta-1.1.jar</systemPath>  
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
