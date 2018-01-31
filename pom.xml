@@ -25,7 +25,7 @@
            <artifactId>jta</artifactId>
            <version>1.0.1b</version>
             <scope>system</scope>
-            <systemPath>${basedir}/jta-*.jar</systemPath>  
+            <systemPath>${basedir}/jta-1.0.1b.jar</systemPath>  
         </dependency>
         <dependency>
             <groupId>junit</groupId>
