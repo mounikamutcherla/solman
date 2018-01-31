@@ -196,13 +196,7 @@
             <artifactId>atlassian-plugins-core</artifactId>
             <version>3.0.0</version>
         </dependency>
-          <dependency>
-	<groupId></groupId>
-	<artifactId></artifactId>
-	<version>1.1</version>
-	<systemPath>jta-1.1.jar</systemPath>
-        </dependency>
-              
+
     </dependencies>
 
     <dependencyManagement>
@@ -221,7 +215,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-                 
         </dependencies>
     </dependencyManagement>
     <build>
@@ -297,7 +290,6 @@
     </build>
 
     <repositories>
-             
         <repository>
             <id>atlassian-public</id>
             <url>https://maven.atlassian.com/repository/public</url>
@@ -311,7 +303,6 @@
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
         </repository>
-                                              
     </repositories>
 
     <properties>
