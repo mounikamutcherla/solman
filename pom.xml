@@ -314,7 +314,7 @@
     </repositories>
 
     <properties>
-        <jira.version>7.1.9</jira.version>
+        <jira.version>7.6.2</jira.version>
         <platform.version>3.0.0</platform.version>
         <refapp.version>3.0.3</refapp.version>
         <amps.version>6.1.2</amps.version>
